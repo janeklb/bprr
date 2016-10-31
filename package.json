@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Blocked Process Report Report for SQL Server Profiler traces",
   "main": "bprr.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "bprr": "bin/bprr.js"
   },
@@ -15,7 +12,11 @@
     "sqlserver profiler",
     "blocked process report"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janeklb/bprr"
+  },
+  "author": "janeklb",
   "license": "ISC",
   "dependencies": {
     "libxmljs": "^0.18.0",

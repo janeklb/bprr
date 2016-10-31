@@ -9,8 +9,4 @@ Install globally (`npm i -g bprr`) and run:
 bprr /path/to/trace.xml [<encoding>]
 ```
 
-SQL Server Profiler tends to save it's output in **UTF-16**, though node supports **UCS-2** and so you'll usually be running:
-
-```bash
-bprr /path/to/trace/xml ucs2
-```
+The `<encoding>` argument is optional, and defaults to `ucs2` (**UCS-2** is a subset of **UTF-16** which is the encoding that SQL Server Profile saves in).

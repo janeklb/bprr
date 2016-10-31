@@ -22,7 +22,7 @@ class BlockedProcessReport {
             blocked: null
         };
 
-        this.xml = timed('Read xml file', () => fs.readFileSync(path, encoding || 'utf8'));
+        this.xml = timed('Read xml file', () => fs.readFileSync(path, encoding || 'ucs2'));
     }
 
     _addQuery(query, store) {
