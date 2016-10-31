@@ -1,7 +1,7 @@
 # 'Blocked process report' report
 
 Analyses a SQL Server "Blocked process report" trace and summarises all blocking / blocked queries.
-The trace must be saved as XML (*File > Save As ... > Select .xml as output*)
+The trace must be saved as XML (*File > Save As ... > Select .xml as output*) from SQL Server Profiler.
 
 Install globally (`npm i -g bprr`) and run:
 
